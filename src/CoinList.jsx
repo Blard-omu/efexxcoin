@@ -79,17 +79,19 @@ const CoinList = () => {
       </div>
       <div className="pagination">
         <button
+        className="btn btn-primary"
           onClick={handlePrevPageClick}
           disabled={currentPage === 1}
         >
-          Previous Page
+          Previous
         </button>
-        <span>Page {currentPage} of {totalPages}</span>
+        <span className="text-secondary text-center">Page {currentPage} of {totalPages}</span>
         <button
+        className="btn btn-primary "
           onClick={handleNextPageClick}
           disabled={currentPage === totalPages}
         >
-          Next Page
+          Next
         </button>
       </div>
     </div>

@@ -17,3 +17,15 @@
 .coin-icon img{
     width: 80px;
 }
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.pagination button{
+    width: 30%;
+}
+.pagination span{
+    width: 30%;
+}
